@@ -23,7 +23,7 @@ localStorage.setItem(hour,usertext);
 
     var presentTime = dayjs().hour();
 
-    presentTime=10;
+    //presentTime=10;
     $('.time-block').each(function() {
       var hourBlock = parseInt($(this).attr('id').split('-')[1]);
 
